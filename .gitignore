@@ -1,0 +1,25 @@
+# Native build files
+ios/
+android/
+
+# Keep only specific native config files
+!android/app/src/main/java
+!android/build.gradle
+!android/settings.gradle
+!ios/*.xcodeproj
+!ios/*.xcworkspace
+
+# Dependencies
+node_modules/
+.expo/
+dist/
+web-build/
+
+# Debug files
+npm-debug.*
+*.log
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
